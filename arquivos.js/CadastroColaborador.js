@@ -32,7 +32,7 @@ function cadastrarColaborador() {
     alert('Cadastro realizado com sucesso! Redirecionando para página de login.');
 
     // Redirecionar para a página de login após o cadastro
-    window.location.href = "PaginaLogin.html";
+    window.location.href = "index.html";
 }
 
 function salvarColaboradorLocalStorage(nome, email, senha, telefone, endereco) {
@@ -48,3 +48,4 @@ function limparCampos() {
     document.getElementById('telefone').value = '';
     document.getElementById('endereco').value = '';
 }
+
