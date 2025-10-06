@@ -151,5 +151,6 @@ setInterval(resetarGanhos, 24 * 60 * 60 * 1000); // Reset diário
 function logout() {
     localStorage.removeItem('usuarioLogado');
     alert('Você saiu com sucesso.');
-    window.location.href = "PaginaLogin.html";
+    window.location.href = "index.html";
 }
+
