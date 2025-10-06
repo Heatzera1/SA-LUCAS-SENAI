@@ -262,9 +262,9 @@ function redirecionarMenuAutenticado() {
         document.getElementById('linkFinanceiro').href = 'Financeiro.html';
         document.getElementById('linkConta').href = 'Conta.html';
     } else {
-        document.getElementById('linkDashboard').href = 'PaginaLogin.html';
-        document.getElementById('linkFinanceiro').href = 'PaginaLogin.html';
-        document.getElementById('linkConta').href = 'PaginaLogin.html';
+        document.getElementById('linkDashboard').href = 'index.html';
+        document.getElementById('linkFinanceiro').href = 'index.html';
+        document.getElementById('linkConta').href = 'index.html';
     }
 }
 
@@ -273,3 +273,4 @@ function logout() {
     alert('Você saiu com sucesso.');
     window.location.href = "PaginaLogin.html";
 }
+
