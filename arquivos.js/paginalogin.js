@@ -45,7 +45,8 @@ document.addEventListener("DOMContentLoaded", function() {
         redirecionarMenuAutenticado();
     } else if (usuarioLogado) {
         // Desativar os links do menu se não estiver logado
-        document.getElementById('linkDashboard').href = 'PaginaLogin.html';
-        document.getElementById('linkFinanceiro').href = 'PaginaLogin.html';
+        document.getElementById('linkDashboard').href = 'index.html';
+        document.getElementById('linkFinanceiro').href = 'index.html';
     }
 });
+
