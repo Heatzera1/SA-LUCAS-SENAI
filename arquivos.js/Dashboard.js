@@ -271,6 +271,7 @@ function redirecionarMenuAutenticado() {
 function logout() {
     localStorage.removeItem('usuarioLogado');
     alert('Você saiu com sucesso.');
-    window.location.href = "PaginaLogin.html";
+    window.location.href = "index.html";
 }
+
 
